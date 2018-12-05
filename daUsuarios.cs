@@ -18,7 +18,7 @@ namespace CapaDatos
             SqlConnection conexion = Conexion.ConexionSql;
 
             SqlCommand cmd = conexion.CreateCommand();
-            cmd.CommandText = "usp_InsertaUsuario";
+            cmd.CommandText = "usp_InsertaUsuario1";
             cmd.CommandType = CommandType.StoredProcedure;
 
             SqlParameter par1 = cmd.Parameters.Add("@pNombres", SqlDbType.VarChar, 50);
