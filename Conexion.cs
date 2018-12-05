@@ -17,7 +17,6 @@ namespace CapaDatos
             {
                 string cadenaConexion = null;
                 cadenaConexion = ConfigurationManager.ConnectionStrings["conexionBiblioteca"].ToString();
-                return cadenaConexion;
             }
         }
 
